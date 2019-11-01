@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Vladislav Stepanenko</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html"><b><span class="logo_colour">Vladislav Stepanenko</span></b></a></h1>
+          <h2>Website about me.</h2>
+        </div>
+      </div>
+      <nav>
+        <div id="menu_container">
+          <ul class="sf-menu" id="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="gallery.html">Photo gallery</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3><b>Latest News</b></h3>
+          <h4>Website About Vladislav Stepanenko Launched</h4>
+          <h5>September 27th, 2017</h5>
+          <p>Now you can freely contact me <a href="contact.html">here</a>.</p>
+        </div>
+        <div class="sidebar">
+          <h3><b>Contacts</b></h3>
+          <ul>
+            <li><a href="https://vk.com/charliesgames" target="_blank">My VK</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100010396320751" target="_blank">My Facebook</a></li>
+            <li><a href="https://www.youtube.com/channel/UCz3JyuL67oTVExxVv718QbA" target="_blank">My Youtube</a></li>
+            <li><a href="https://twitter.com/OPeAZSigMMq67yb" target="_blank">My Twitter</a></li>
+          </ul>
+        </div>
+        <div class="sidebar">
+          <h3><b>Interesting links</b></h3>
+          <ul>
+            <li><a href="https://twitter.com/robertdowneyjr" target="_blank">Robert Downey Jr.</a></li>
+            <li><a href="https://twitter.com/emiliaclarke" target="_blank">Emilia Clarke</a></li>
+            <li><a href="http://www.hbo.com/" target="_blank">HBO</a></li>
+            <li><a href="http://www.paldgym.edu.ee/et/" target="_blank">Paldiski Ühisgümnaasium</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <h1><b>Information about me</b></h1>
+		<table style="width:100%; border-spacing:0;" frame="hsides" rules="cols">
+          <tr><th>Item</th><th>Description</th></tr>
+          <tr><td>Name</td><td>Vladislav</td></tr>
+          <tr><td>Surname</td><td>Stepanenko</td></tr>
+          <tr><td>Age</td><td>16 years old</td></tr>
+          <tr><td>Height</td><td>164 cm</td></tr>
+		  <tr><td>Hobby</td><td>Computer games</td></tr>
+        </table>
+        <p>My name is <strong>Vladislav</strong>, I'm 16 years old and I live in Paldiski. I'm in the 11th grade at the <strong><a href="http://www.paldgym.edu.ee/et/" target="_blank">Paldiski General Gymnasium</a></strong>.
+		I really like to play computer games. Also, I like watching serials and movies, and listening to music.</p>
+		<p><strong>My favorite movie studio is the Marvel studios.</strong></p>
+		<span class="left"><img src="images/marvel.png" alt="example graphic" height="200px" /></span>
+		<p><strong>My favorite TV series is "Game of Thrones".</strong></p>
+		<span class="left1"><img src="images/got.jpg" alt="example graphic" height="220px" /></span>
+		<p><strong>My favorite series of computer games is "Assassin's Creed".</strong></p>
+		<span class="left"><img src="images/as1.png" alt="example graphic" height="190px" /></span></div>
+      </div>
+    </div>
+    <div id="scroll">
+      <a title="Scroll to the top" class="top" href="#"><img src="images/top.png" alt="top" /></a>
+    </div>
+    <footer>
+      <p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+      <p><a href="index.html">Home</a> | <a href="about.html">About Me</a> | <a href="gallery.html">Photo gallery</a> | <a href="contact.html">Contact Me</a></p>
+      <p>Copyright &copy; CSS3_trees | <a href="http://www.heartinternet.co.uk/web-hosting/">Web hosting</a> | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+      $('.top').click(function() {$('html, body').animate({scrollTop:0}, 'fast'); return false;});
+    });
+  </script>
+</body>
+</html>
